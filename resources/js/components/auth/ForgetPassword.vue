@@ -9,7 +9,7 @@
                         <div class="col-lg-12">
                             <div class="login-form">
                                 <div class="text-center">
-                                    <h1 class="h4 text-gray-900 mb-4">Login</h1>
+                                    <h1 class="h4 text-gray-900 mb-4">Forget Password</h1>
                                 </div>
                                 <form class="user">
                                     <div class="form-group">
@@ -18,25 +18,13 @@
                                                type="email">
                                     </div>
                                     <div class="form-group">
-                                        <input class="form-control" id="exampleInputPassword" placeholder="Password"
-                                               type="password">
-                                    </div>
-                                    <div class="form-group">
-                                        <div class="custom-control custom-checkbox small" style="line-height: 1.5rem;">
-                                            <input class="custom-control-input" id="customCheck" type="checkbox">
-                                            <label class="custom-control-label" for="customCheck">Remember
-                                                Me</label>
-                                        </div>
-                                    </div>
-                                    <div class="form-group">
-                                        <a class="btn btn-primary btn-block" href="index.html">Login</a>
+                                        <a class="btn btn-primary btn-block" href="index.html">Reset</a>
                                     </div>
                                     <hr>
                                 </form>
                                 <hr>
                                 <div class="text-center">
-                                    <router-link class="font-weight-bold small" to="/register">Create an Account!</router-link> |
-                                    <a class="font-weight-bold small" href="/forgetpassword">Forget Password!</a>
+                                    <router-link class="font-weight-bold small" to="/">Back Login!</router-link>
                                 </div>
                             </div>
                         </div>
@@ -51,7 +39,7 @@
 
 <script>
     export default {
-        name: "login"
+        name: "forget-password"
     }
 </script>
 
